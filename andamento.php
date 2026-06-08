@@ -6,8 +6,23 @@ $query = "SELECT a.*, e.nome_livro, e.paginas_totais
 $leituras = $pdo->query($query)->fetchAll();
 ?>
 
-<h1>Andamento de Leitura</h1>
-<a href="adicionar_andamento.php">Adicionar Leitura</a>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Estante Virtual</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    </style>
+</head>
+<body>
+
+    <?php include 'menu.php'; ?>
+
+    <h1>Andamento de Leitura</h1>
+    <a href="adicionar_andamento.php">Adicionar Leitura</a>
 
 <table>
     <tr>
@@ -27,3 +42,5 @@ $leituras = $pdo->query($query)->fetchAll();
     </tr>
     <?php endforeach; ?>
 </table>
+</body>
+</html>
