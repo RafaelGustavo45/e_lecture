@@ -39,6 +39,11 @@ $fichas = file_exists($arquivo_fichas) ? json_decode(file_get_contents($arquivo_
                         </li>
                     <?php endforeach; ?>
                 </ul>
+              <div style="margin-top: 10px;">
+      <a href="editar_personagem.php?id=<?= $ficha['id'] ?>">Editar</a> | 
+      <a href="excluir_personagem.php?id=<?= $ficha['id'] ?>" 
+       onclick="return confirm('Deseja mesmo excluir este personagem?')">Excluir</a>
+     </div>
             </div>
         <?php endforeach; ?>
     <?php endif; ?>
