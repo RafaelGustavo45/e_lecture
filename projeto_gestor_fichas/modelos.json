@@ -1,0 +1,60 @@
+[
+    {
+        "titulo": "modeli",
+        "campos": [
+            {
+                "nome": "nome",
+                "tipo": "str",
+                "obrigatorio": true
+            },
+            {
+                "nome": "idade",
+                "tipo": "int",
+                "obrigatorio": true
+            },
+            {
+                "nome": "etinia",
+                "tipo": "str",
+                "obrigatorio": false
+            }
+        ],
+        "id": 1
+    },
+    {
+        "titulo": "modelito",
+        "campos": [
+            {
+                "nome": "bajulador",
+                "tipo": "boolean",
+                "obrigatorio": false
+            },
+            {
+                "nome": "largura",
+                "tipo": "float",
+                "obrigatorio": false
+            },
+            {
+                "nome": "data_nascimento",
+                "tipo": "date",
+                "obrigatorio": true
+            }
+        ],
+        "id": 2
+    },
+    {
+        "titulo": "bb",
+        "campos": [
+            {
+                "nome": "sdfew",
+                "tipo": "str",
+                "obrigatorio": false
+            },
+            {
+                "nome": "eef",
+                "tipo": "int",
+                "obrigatorio": false
+            }
+        ],
+        "id": 3
+    }
+]

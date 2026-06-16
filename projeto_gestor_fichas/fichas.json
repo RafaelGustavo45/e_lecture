@@ -1,0 +1,28 @@
+[
+    {
+        "id_fk_modelo": 3,
+        "id": 1,
+        "dados": {
+            "sdfew": "rg",
+            "eef": 12
+        }
+    },
+    {
+        "id_fk_modelo": 2,
+        "id": 2,
+        "dados": {
+            "bajulador": true,
+            "largura": "",
+            "data_nascimento": "12\/12\/2002"
+        }
+    },
+    {
+        "id_fk_modelo": 2,
+        "id": 3,
+        "dados": {
+            "bajulador": true,
+            "largura": 34,
+            "data_nascimento": "12\/12\/2002"
+        }
+    }
+]
